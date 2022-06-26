@@ -1,6 +1,6 @@
-name: 'Clean after'
-description: 'Cleans up the workspace after build finishes'
-author: 'mickem'
+name: 'Clean WS Action'
+description: 'Cleans up the workspace before and after the job'
+author: 'fthdgn'
 branding:
   icon: 'delete'
   color: 'red'
@@ -10,5 +10,5 @@ inputs:
     required: false
 runs:
   using: 'node12'
-  main: 'index.js'
+  main: 'cleanup.js'
   post: 'cleanup.js'

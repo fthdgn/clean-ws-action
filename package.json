@@ -1,8 +1,8 @@
 {
-  "name": "cleanup-after",
-  "version": "1.1.1",
-  "main": "index.js",
-  "author": "Michael Medin <michael@medin.name>",
+  "name": "clean-ws-action",
+  "version": "1.0.0",
+  "main": "cleanup.js",
+  "author": "Fatih Doğan <fatih@fatihdogan.dev>",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "1.2.3",
@@ -10,6 +10,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mickem/clean-after-action.git"
+    "url": "https://github.com/fthdgn/clean-ws-action.git"
   }
 }
